@@ -16,12 +16,18 @@
         <div class="w-50">
             <div class="card">
                 <div class="card-header">
-                    <h4>Tạo thẻ div</h4>
+                    <h4>In ra số nguyên tố từ 1 đến n</h4>
                 </div>
                 <div class="card-body">
-                    <button id="btnCreateDiv" class="btn btn-success">Tạo Div</button>
+                    <div class="form">
+                        <div class="form-group">
+                            <input id="ipNumber" placeholder="Nhập n" type="number" class="form-control">
+                        </div>
+                        <button id="btnShowResult" type="button" class="btn btn-success">In số nguyên tố</button>
+                    </div>
                 </div>
-                <div id="resultId" class="card-footer bg-dark">
+                <div class="card-footer">
+                    <p id="txtResult" class="bg-success p-2 text-white"></p>
                 </div>
             </div>
         </div>
